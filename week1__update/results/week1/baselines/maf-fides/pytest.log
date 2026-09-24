@@ -1,0 +1,11 @@
+........................................................................ [ 18%]
+........................................................................ [ 37%]
+........................................................................ [ 56%]
+........................................................................ [ 74%]
+........................................................................ [ 93%]
+.........................                                                [100%]
+=============================== warnings summary ===============================
+packages/core/agent_framework/security.py:3321
+  /home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/core/agent_framework/security.py:3321: ExperimentalWarning: [FIDES] ContentVariableStore is experimental and may change or be removed in future versions without notice.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html

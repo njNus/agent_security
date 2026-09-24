@@ -1,0 +1,421 @@
+Using CPython 3.12.13
+Creating virtual environment at: .venv
+   Building agent-framework-a2a @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/a2a
+   Building agent-framework-ag-ui @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ag-ui
+   Building agent-framework-tools @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/tools
+   Building agent-framework-redis @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/redis
+   Building agent-framework-qdrant @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/qdrant
+   Building agent-framework-purview @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/purview
+   Building agent-framework-orchestrations @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/orchestrations
+   Building agent-framework-postgres @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/postgres
+   Building agent-framework-ollama @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ollama
+   Building agent-framework-openai @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/openai
+   Building agent-framework-monty @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/monty
+   Building agent-framework-mongodb @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mongodb
+   Building agent-framework-mistral @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mistral
+   Building agent-framework-mem0 @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mem0
+   Building agent-framework-hyperlight @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hyperlight
+   Building agent-framework-hosting-telegram @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-telegram
+   Building agent-framework-hosting-responses @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-responses
+   Building agent-framework-hosting-mcp @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-mcp
+   Building agent-framework-hosting-a2a @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-a2a
+   Building agent-framework-hosting @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting
+   Building agent-framework-github-copilot @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/github_copilot
+   Building agent-framework-gemini @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/gemini
+   Building agent-framework-foundry-local @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_local
+   Building agent-framework-foundry @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry
+   Building agent-framework-foundry-hosting @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_hosting
+   Building agent-framework-devui @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/devui
+   Building agent-framework-declarative @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/declarative
+   Building agent-framework-core @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/core
+   Building agent-framework-copilotstudio @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/copilotstudio
+   Building agent-framework-claude @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/claude
+   Building agent-framework-bedrock @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/bedrock
+   Building agent-framework-chatkit @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/chatkit
+   Building agent-framework-azure-documentdb @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-documentdb
+   Building agent-framework-azure-cosmos-memory @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos-memory
+   Building agent-framework-azure-cosmos @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos
+   Building agent-framework-azure-contentunderstanding @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-contentunderstanding
+   Building agent-framework-anthropic @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/anthropic
+   Building agent-framework-azure-ai-search @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-ai-search
+warning: Found license classifier `License :: OSI Approved :: MIT License`. License classifiers are ambiguous and deprecated per PEP 639; projects should use `project.license` and `project.license-files` instead.
+      Built agent-framework-mistral @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mistral
+      Built agent-framework-ollama @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ollama
+Downloading grpcio (6.8MiB)
+Downloading uvloop (4.2MiB)
+Downloading aiohttp (1.7MiB)
+Downloading sqlalchemy (3.3MiB)
+Downloading mypy (14.6MiB)
+Downloading pymongo (1.0MiB)
+Downloading numpy (15.9MiB)
+Downloading tiktoken (1.1MiB)
+Downloading hyperlight-sandbox-python-guest (20.8MiB)
+Downloading pygments (1.2MiB)
+Downloading cryptography (4.5MiB)
+Downloading pyrefly (14.7MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading mistralai (1.3MiB)
+Downloading openai (1.9MiB)
+Downloading psycopg-binary (5.0MiB)
+Downloading uv (19.4MiB)
+Downloading botocore (15.1MiB)
+Downloading ruff (9.9MiB)
+Downloading prek (5.9MiB)
+Downloading ty (13.1MiB)
+Downloading pyright (5.9MiB)
+Downloading powerfx (3.3MiB)
+Downloading claude-agent-sdk (97.3MiB)
+Downloading ast-serialize (1.3MiB)
+Downloading google-genai (1.1MiB)
+Downloading openai-agents (1.1MiB)
+Downloading pydantic-monty-client (3.8MiB)
+Downloading pydantic-monty-runtime (11.8MiB)
+Downloading zuban (30.5MiB)
+Downloading hyperlight-sandbox-backend-wasm (3.8MiB)
+ Downloaded pymongo
+ Downloaded openai-agents
+ Downloaded google-genai
+ Downloaded tiktoken
+ Downloaded pygments
+ Downloaded ast-serialize
+ Downloaded mistralai
+Downloading pip (1.7MiB)
+      Built agent-framework-bedrock @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/bedrock
+      Built agent-framework-ag-ui @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ag-ui
+      Built agent-framework-foundry-hosting @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_hosting
+      Built agent-framework-monty @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/monty
+      Built agent-framework-claude @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/claude
+      Built agent-framework-foundry-local @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_local
+      Built agent-framework-azure-cosmos-memory @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos-memory
+      Built agent-framework-a2a @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/a2a
+      Built agent-framework-anthropic @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/anthropic
+      Built agent-framework-copilotstudio @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/copilotstudio
+      Built agent-framework-hosting-a2a @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-a2a
+      Built agent-framework-mongodb @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mongodb
+      Built agent-framework-redis @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/redis
+      Built agent-framework-qdrant @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/qdrant
+      Built agent-framework-openai @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/openai
+      Built agent-framework-postgres @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/postgres
+      Built agent-framework-azure-documentdb @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-documentdb
+      Built agent-framework-gemini @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/gemini
+      Built agent-framework-tools @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/tools
+      Built agent-framework-core @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/core
+      Built agent-framework-chatkit @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/chatkit
+      Built agent-framework-azure-cosmos @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos
+      Built agent-framework-hyperlight @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hyperlight
+      Built agent-framework-azure-contentunderstanding @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-contentunderstanding
+      Built agent-framework-orchestrations @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/orchestrations
+      Built agent-framework-github-copilot @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/github_copilot
+      Built agent-framework-mem0 @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mem0
+      Built agent-framework-devui @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/devui
+      Built agent-framework-foundry @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry
+      Built agent-framework-purview @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/purview
+      Built agent-framework-hosting-telegram @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-telegram
+      Built agent-framework-hosting @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting
+      Built agent-framework-hosting-mcp @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-mcp
+      Built agent-framework-declarative @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/declarative
+      Built agent-framework-azure-ai-search @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-ai-search
+      Built agent-framework-hosting-responses @ file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-responses
+ Downloaded aiohttp
+ Downloaded pydantic-core
+ Downloaded openai
+ Downloaded pip
+ Downloaded sqlalchemy
+ Downloaded powerfx
+ Downloaded hyperlight-sandbox-backend-wasm
+ Downloaded pydantic-monty-client
+ Downloaded uvloop
+ Downloaded cryptography
+ Downloaded psycopg-binary
+ Downloaded pyright
+ Downloaded prek
+ Downloaded grpcio
+ Downloaded ruff
+ Downloaded pydantic-monty-runtime
+ Downloaded ty
+ Downloaded pyrefly
+ Downloaded mypy
+ Downloaded botocore
+ Downloaded numpy
+ Downloaded uv
+ Downloaded hyperlight-sandbox-python-guest
+ Downloaded zuban
+ Downloaded claude-agent-sdk
+Prepared 264 packages in 31.57s
+Installed 276 packages in 106ms
+ + a2a-sdk==1.1.4
+ + ag-ui-a2ui-toolkit==0.0.4
+ + ag-ui-protocol==0.1.22
+ + agent-framework-a2a==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/a2a)
+ + agent-framework-ag-ui==1.4.0 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ag-ui)
+ + agent-framework-anthropic==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/anthropic)
+ + agent-framework-azure-ai-search==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-ai-search)
+ + agent-framework-azure-contentunderstanding==1.0.0b260813 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-contentunderstanding)
+ + agent-framework-azure-cosmos==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos)
+ + agent-framework-azure-cosmos-memory==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-cosmos-memory)
+ + agent-framework-azure-documentdb==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/azure-documentdb)
+ + agent-framework-azurefunctions==1.0.0b260730
+ + agent-framework-bedrock==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/bedrock)
+ + agent-framework-chatkit==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/chatkit)
+ + agent-framework-claude==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/claude)
+ + agent-framework-copilotstudio==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/copilotstudio)
+ + agent-framework-core==1.19.0 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/core)
+ + agent-framework-declarative==1.1.0 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/declarative)
+ + agent-framework-devui==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/devui)
+ + agent-framework-durabletask==1.0.0b260730
+ + agent-framework-foundry==1.13.1 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry)
+ + agent-framework-foundry-hosting==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_hosting)
+ + agent-framework-foundry-local==1.0.0b260730 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/foundry_local)
+ + agent-framework-gemini==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/gemini)
+ + agent-framework-github-copilot==2.0.0 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/github_copilot)
+ + agent-framework-hosting==1.0.0a260730 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting)
+ + agent-framework-hosting-a2a==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-a2a)
+ + agent-framework-hosting-mcp==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-mcp)
+ + agent-framework-hosting-responses==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-responses)
+ + agent-framework-hosting-telegram==1.0.0a260730 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hosting-telegram)
+ + agent-framework-hyperlight==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/hyperlight)
+ + agent-framework-mem0==1.0.0b260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mem0)
+ + agent-framework-mistral==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mistral)
+ + agent-framework-mongodb==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/mongodb)
+ + agent-framework-monty==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/monty)
+ + agent-framework-ollama==1.0.0b260813 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/ollama)
+ + agent-framework-openai==1.14.4 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/openai)
+ + agent-framework-orchestrations==1.2.0 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/orchestrations)
+ + agent-framework-postgres==1.0.0a260910 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/postgres)
+ + agent-framework-purview==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/purview)
+ + agent-framework-qdrant==1.0.0a260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/qdrant)
+ + agent-framework-redis==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/redis)
+ + agent-framework-tools==1.0.0b260918 (from file:///home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/tools)
+ + agent-hooks-sdk==0.1.0a5
+ + aiofiles==25.1.0
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.3
+ + aiologic==0.17.1
+ + aiosignal==1.4.0
+ + annotated-doc==0.0.5
+ + annotated-types==0.8.0
+ + anthropic==0.116.0
+ + anyio==4.15.1
+ + asgiref==3.12.1
+ + ast-serialize==0.11.2
+ + asyncio==4.0.0
+ + attrs==26.1.0
+ + azure-ai-agentserver-core==2.1.0
+ + azure-ai-agentserver-invocations==1.1.0
+ + azure-ai-agentserver-responses==2.2.0b1
+ + azure-ai-contentunderstanding==1.2.0b3
+ + azure-ai-inference==1.0.0b9
+ + azure-ai-projects==2.6.1
+ + azure-core==1.41.0
+ + azure-core-tracing-opentelemetry==1.0.0b13
+ + azure-cosmos==4.17.1
+ + azure-cosmos-agent-memory==0.3.0b2
+ + azure-functions==1.25.0
+ + azure-functions-durable==1.7.0
+ + azure-identity==1.25.3
+ + azure-monitor-opentelemetry==1.8.10
+ + azure-monitor-opentelemetry-exporter==1.0.0b57
+ + azure-search-documents==12.0.0
+ + azure-storage-blob==12.30.2
+ + backoff==2.2.1
+ + boto3==1.43.97
+ + botocore==1.43.97
+ + certifi==2026.7.22
+ + cffi==2.0.0
+ + charset-normalizer==3.5.1
+ + claude-agent-sdk==0.2.156
+ + click==8.5.0
+ + clr-loader==0.2.10
+ + colorama==0.4.6
+ + coverage==7.16.1
+ + cryptography==50.0.1
+ + culsans==0.11.0
+ + distro==1.9.0
+ + dnspython==2.8.0
+ + docstring-parser==0.18.0
+ + docutils==0.23
+ + durabletask==1.10.1
+ + durabletask-azuremanaged==1.10.1
+ + eval-type-backport==0.4.0
+ + execnet==2.1.2
+ + fastapi==0.141.1
+ + filetype==1.2.0
+ + flit==4.1.0
+ + flit-core==4.1.0
+ + foundry-local-sdk==0.5.1
+ + frozenlist==1.8.0
+ + furl==2.1.4
+ + github-copilot-sdk==1.0.11
+ + google-api-core==2.38.0
+ + google-auth==2.58.0
+ + google-genai==2.24.0
+ + googleapis-common-protos==1.75.3
+ + graphviz==0.21
+ + greenlet==3.5.6
+ + griffe==2.3.0
+ + griffecli==2.3.0
+ + griffelib==2.3.0
+ + grpcio==1.84.0
+ + h11==0.16.0
+ + h2==4.4.1
+ + hpack==4.2.0
+ + httpcore==1.0.9
+ + httpcore2==2.13.0
+ + httptools==0.8.0
+ + httpx==0.28.1
+ + httpx-sse==0.4.3
+ + httpx2==2.13.0
+ + hypercorn==0.18.0
+ + hyperframe==6.1.0
+ + hyperlight-sandbox==0.7.0
+ + hyperlight-sandbox-backend-wasm==0.7.0
+ + hyperlight-sandbox-python-guest==0.7.0
+ + idna==3.20
+ + iniconfig==2.3.0
+ + isodate==0.7.2
+ + jinja2==3.1.6
+ + jiter==0.17.0
+ + jmespath==1.1.0
+ + json-rpc==1.15.0
+ + jsonpath-ng==1.8.0
+ + jsonpath-python==1.1.6
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + librt==0.15.0
+ + markdown-it-py==4.2.0
+ + markupsafe==3.0.3
+ + mcp==1.30.0
+ + mdurl==0.1.2
+ + mem0ai==2.0.20
+ + microsoft-agents-activity==1.7.0
+ + microsoft-agents-copilotstudio-client==1.7.0
+ + microsoft-agents-hosting-core==1.7.0
+ + microsoft-opentelemetry==1.3.9
+ + mistralai==2.10.1
+ + ml-dtypes==0.6.0
+ + msal==1.39.0
+ + msal-extensions==1.3.1
+ + msgspec==0.21.1
+ + msrest==0.7.1
+ + multidict==6.8.0
+ + mypy==2.3.1
+ + mypy-extensions==1.1.0
+ + nodeenv==1.10.0
+ + numpy==2.5.3
+ + oauthlib==3.3.1
+ + ollama==0.5.3
+ + openai==3.15.0
+ + openai-agents==0.22.3
+ + openai-chatkit==1.6.5
+ + opentelemetry-api==1.44.0
+ + opentelemetry-exporter-otlp==1.44.0
+ + opentelemetry-exporter-otlp-proto-common==1.44.0
+ + opentelemetry-exporter-otlp-proto-grpc==1.44.0
+ + opentelemetry-exporter-otlp-proto-http==1.44.0
+ + opentelemetry-instrumentation==0.65b0
+ + opentelemetry-instrumentation-asgi==0.65b0
+ + opentelemetry-instrumentation-dbapi==0.65b0
+ + opentelemetry-instrumentation-django==0.65b0
+ + opentelemetry-instrumentation-fastapi==0.65b0
+ + opentelemetry-instrumentation-flask==0.65b0
+ + opentelemetry-instrumentation-httpx==0.65b0
+ + opentelemetry-instrumentation-logging==0.65b0
+ + opentelemetry-instrumentation-openai-agents-v2==0.1.0
+ + opentelemetry-instrumentation-openai-v2==2.3b0
+ + opentelemetry-instrumentation-psycopg2==0.65b0
+ + opentelemetry-instrumentation-requests==0.65b0
+ + opentelemetry-instrumentation-urllib==0.65b0
+ + opentelemetry-instrumentation-urllib3==0.65b0
+ + opentelemetry-instrumentation-wsgi==0.65b0
+ + opentelemetry-proto==1.44.0
+ + opentelemetry-resource-detector-azure==0.2.0
+ + opentelemetry-sdk==1.44.0
+ + opentelemetry-semantic-conventions==0.65b0
+ + opentelemetry-util-genai==0.3b0
+ + opentelemetry-util-http==0.65b0
+ + orderedmultidict==1.0.2
+ + packaging==26.3
+ + pastel==0.2.1
+ + pathspec==1.1.1
+ + pgvector==0.5.0
+ + pip==26.2.1
+ + pluggy==1.6.0
+ + poethepoet==0.48.0
+ + portalocker==3.2.0
+ + posthog==7.57.0
+ + powerfx==0.0.34
+ + prek==0.5.3
+ + priority==2.0.0
+ + prompty==2.0.2
+ + propcache==0.5.4
+ + proto-plus==1.28.4
+ + protobuf==6.33.6
+ + psutil==7.2.2
+ + psycopg==3.3.5
+ + psycopg-binary==3.3.5
+ + psycopg-pool==3.3.1
+ + pyasn1==0.6.4
+ + pyasn1-modules==0.4.2
+ + pycparser==3.0
+ + pydantic==2.13.5
+ + pydantic-core==2.46.5
+ + pydantic-monty==0.0.23
+ + pydantic-monty-client==0.0.23
+ + pydantic-monty-runtime==0.0.23
+ + pydantic-settings==2.15.0
+ + pygments==2.21.0
+ + pyjwt==2.14.0
+ + pymongo==4.18.1
+ + pyrefly==1.3.0
+ + pyright==1.1.414
+ + pytest==9.1.1
+ + pytest-asyncio==1.4.0
+ + pytest-cov==7.1.0
+ + pytest-retry==1.7.0
+ + pytest-timeout==2.4.0
+ + pytest-xdist==3.8.0
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.2.3
+ + python-multipart==0.0.32
+ + python-ulid==4.0.1
+ + pythonnet==3.0.5
+ + pytz==2026.3.post1
+ + pyyaml==6.0.3
+ + qdrant-client==1.19.1
+ + redis==7.1.1
+ + redisvl==0.15.0
+ + referencing==0.37.0
+ + regex==2026.9.10
+ + requests==2.34.2
+ + requests-oauthlib==2.0.0
+ + rich==15.0.0
+ + rpds-py==2026.6.3
+ + ruff==0.16.7
+ + s3transfer==0.19.2
+ + six==1.17.0
+ + sniffio==1.3.1
+ + sqlalchemy==2.0.54
+ + sse-starlette==3.4.11
+ + starlette==1.6.0
+ + tenacity==9.1.4
+ + tiktoken==0.14.0
+ + tomli==2.4.1
+ + tomli-w==1.2.0
+ + tqdm==4.70.1
+ + truststore==0.10.4
+ + ty==0.0.80
+ + types-pyyaml==6.0.12.20260906
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+ + urllib3==2.8.0
+ + uv==0.12.16
+ + uvicorn==0.53.0
+ + uvloop==0.22.1
+ + watchdog==6.0.0
+ + watchfiles==1.2.0
+ + websockets==16.1.1
+ + werkzeug==3.1.8
+ + wrapt==1.17.3
+ + wsproto==1.3.2
+ + yarl==1.25.1
+ + zuban==0.9.3

@@ -1,0 +1,4 @@
+]633;E;echo "target=Microsoft Agent Framework FIDES";9611d5d3-3115-4f0d-8d0f-1f31084d0507]633;Ctarget=Microsoft Agent Framework FIDES
+revision=669c8b95e774f298012a55bc0afe19826fd20aba
+python=Python 3.12.13
+test_file=python/packages/core/tests/test_security.py
