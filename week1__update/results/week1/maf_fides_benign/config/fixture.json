@@ -1,0 +1,7 @@
+{
+  "case_id": "trusted-local-write",
+  "known_source": "fixture:trusted-user",
+  "expected_decision": "allow",
+  "expected_destination": "safe/maf.txt",
+  "expected_content_sha256": "17608cb4b203d4b96e493b8dbb3a8727fe460a4c51cd8396a28e571948143606"
+}

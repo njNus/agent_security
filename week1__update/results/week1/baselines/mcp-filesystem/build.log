@@ -1,0 +1,4 @@
+
+> @modelcontextprotocol/server-filesystem@0.6.3 build
+> tsc && shx chmod +x dist/*.js
+

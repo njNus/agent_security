@@ -28,11 +28,11 @@ The novelty matrix is maintained in the accompanying Week 1 report. This reposit
 - [x] Three accessible targets selected and pinned in `targets/manifest.json`.
 - [x] Genuine security check and final sink identified in source for each target.
 - [x] Threat model and common trace record defined.
-- [ ] Exact SSH environment captured.
-- [ ] Upstream security-enabled baselines passed on the SSH server.
-- [ ] Microsoft Agent Framework benign trace recorded.
-- [ ] CaMeL benign trace recorded.
-- [ ] Trace files and sink receipts checked with `scripts/verify_week1.py --complete`.
+- [x] Exact SSH environment captured.
+- [x] Upstream security-enabled baselines passed on the SSH server.
+- [x] Microsoft Agent Framework benign trace recorded.
+- [x] CaMeL benign trace recorded.
+- [x] Trace files and sink receipts checked with `scripts/verify_week1.py --complete`.
 
 Unchecked items are planned work and must not be reported as completed.
 

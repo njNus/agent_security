@@ -1,0 +1,4 @@
+/home/shahriar/agent_security/week1__update/targets/source/agent-framework/python/packages/core/agent_framework/security.py:3321: ExperimentalWarning: [FIDES] ContentVariableStore is experimental and may change or be removed in future versions without notice.
+PASS: MAF FIDES benign action reached the controlled sink
+action_sha256=cda1f3cb55a0637a75c26dc507781e5bafd01ac744cb7efc85a353745b44d425
+sink=/home/shahriar/agent_security/week1__update/results/week1/maf_fides_benign/sandbox/safe/maf.txt

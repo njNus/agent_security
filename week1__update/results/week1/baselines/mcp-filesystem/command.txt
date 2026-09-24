@@ -1,0 +1,5 @@
+]633;E;echo "target=Official MCP filesystem server";9611d5d3-3115-4f0d-8d0f-1f31084d0507]633;Ctarget=Official MCP filesystem server
+revision=d73f99efbfd40c3aa1b61e88728b3d49fb52608f
+node=v22.23.3
+npm=10.9.9
+package=@modelcontextprotocol/server-filesystem

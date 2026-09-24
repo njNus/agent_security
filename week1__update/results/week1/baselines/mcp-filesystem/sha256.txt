@@ -1,0 +1,7 @@
+f8d3505262d1cab6c86522e1f7d26f5e5709207564f693842adc91947326487e  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/command.txt
+fdc3c401207d4c89770f53aa399362a86e91eb7f2e4eb479664c8e0201e80cd1  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/setup.log
+9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/setup-exit-code.txt
+99bb6cc6c54498359758415184ed714dbe0456c1861b3d2272cf4e7ddf682778  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/build.log
+9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/build-exit-code.txt
+5e282d14ac96d4daeacaf0c8b10d3d09f3e1b8d6f7fa2d1275fd12adbdb8bd42  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/test.log
+9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa  /home/shahriar/agent_security/week1__update/results/week1/baselines/mcp-filesystem/test-exit-code.txt

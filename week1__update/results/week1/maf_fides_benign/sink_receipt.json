@@ -1,0 +1,7 @@
+{
+  "operation": "capture_write",
+  "requested_destination": "safe/maf.txt",
+  "resolved_destination": "/home/shahriar/agent_security/week1__update/results/week1/maf_fides_benign/sandbox/safe/maf.txt",
+  "content_sha256": "17608cb4b203d4b96e493b8dbb3a8727fe460a4c51cd8396a28e571948143606",
+  "exists": true
+}
