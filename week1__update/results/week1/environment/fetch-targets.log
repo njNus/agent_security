@@ -1,0 +1,20 @@
+Cloning into 'targets/source/agent-framework'...
+From https://github.com/microsoft/agent-framework
+ * branch              669c8b95e774f298012a55bc0afe19826fd20aba -> FETCH_HEAD
+HEAD is now at 669c8b95 Python: fix(orchestrations): preserve user multimodal content during handoff (#8551)
+targets/source/agent-framework 669c8b95e774f298012a55bc0afe19826fd20aba
+Cloning into 'targets/source/camel-prompt-injection'...
+From https://github.com/google-research/camel-prompt-injection
+ * branch            f083b6b396399d3b3c7f2ddaf613a5945eaf32d8 -> FETCH_HEAD
+HEAD is now at f083b6b Update README.md, add .env template
+targets/source/camel-prompt-injection f083b6b396399d3b3c7f2ddaf613a5945eaf32d8
+Cloning into 'targets/source/mcp-python-sdk'...
+From https://github.com/modelcontextprotocol/python-sdk
+ * branch            6affe5c0d3588fd1705713b3703dc68015cfe3eb -> FETCH_HEAD
+HEAD is now at 6affe5c Detect event-loop blocking in tests (#3510)
+targets/source/mcp-python-sdk 6affe5c0d3588fd1705713b3703dc68015cfe3eb
+Cloning into 'targets/source/mcp-servers'...
+From https://github.com/modelcontextprotocol/servers
+ * branch            d73f99efbfd40c3aa1b61e88728b3d49fb52608f -> FETCH_HEAD
+HEAD is now at d73f99e fix(memory): serialize graph mutations to prevent concurrent write race (#4555)
+targets/source/mcp-servers d73f99efbfd40c3aa1b61e88728b3d49fb52608f

@@ -1,0 +1,15 @@
+captured_utc=2026-09-24T16:48:14Z
+kernel=Linux leibniz 6.14.0-1015-oem #15-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 17 07:49:59 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+os_NAME="Ubuntu"
+os_VERSION="24.04.3 LTS (Noble Numbat)"
+os_ID=ubuntu
+git version 2.43.0
+Python 3.14.4
+uv 0.11.6 (x86_64-unknown-linux-gnu)
+v22.23.3
+10.9.9
+OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+cpu_count=24
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        13Gi       641Mi       671Mi        48Gi        48Gi
+Swap:           31Gi       3.9Gi        28Gi

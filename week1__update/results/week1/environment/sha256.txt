@@ -1,0 +1,4 @@
+13118406ab5d5c2dd419a8470a1266045280cb30f80a77aa555d676a4c15a55f  results/week1/environment/system.txt
+e15798628a81da25f22530b9dc71bab3a1953f36216c17d15ba257ee2dc99b37  results/week1/environment/research-toolchain.txt
+54737cdbe621837a095b934b014cd4b026ad8e29f7804e1345bcd1813ed27c9c  results/week1/environment/fetch-targets.log
+9cbd0972e55c427195df4328bcfa6b2e2451bd4f7bc48d7e6994dc4f7755513f  results/week1/environment/target-commits.txt

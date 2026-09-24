@@ -1,0 +1,4 @@
+]633;E;echo "research_python=$(uv run --python 3.12 python --version 2>&1)";9611d5d3-3115-4f0d-8d0f-1f31084d0507]633;Cresearch_python=Python 3.12.13
+node=v22.23.3
+npm=10.9.9
+uv=uv 0.11.6 (x86_64-unknown-linux-gnu)
