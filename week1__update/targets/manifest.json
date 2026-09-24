@@ -1,0 +1,85 @@
+{
+  "manifest_version": "1.0",
+  "targets": [
+    {
+      "id": "maf-fides",
+      "name": "Microsoft Agent Framework FIDES",
+      "repository": "https://github.com/microsoft/agent-framework.git",
+      "revision": "669c8b95e774f298012a55bc0afe19826fd20aba",
+      "local_path": "targets/source/agent-framework",
+      "protected_object": "tool call labels, policy decision, approval, and invoked arguments",
+      "security_check": {
+        "file": "python/packages/core/agent_framework/security.py",
+        "symbol": "PolicyEnforcementFunctionMiddleware"
+      },
+      "execution_binding": {
+        "file": "python/packages/core/agent_framework/_tools.py",
+        "symbol": "FunctionTool._ensure_approved_arguments_unchanged"
+      },
+      "sink": {
+        "file": "python/packages/core/agent_framework/_tools.py",
+        "symbol": "FunctionTool.invoke",
+        "controlled_effect": "local capture tool records the exact invoked arguments"
+      },
+      "baseline": "run focused security tests and one security sample with SecureAgentConfig",
+      "server_status": "not_yet_recorded"
+    },
+    {
+      "id": "camel",
+      "name": "CaMeL prompt injection defense",
+      "repository": "https://github.com/google-research/camel-prompt-injection.git",
+      "revision": "f083b6b396399d3b3c7f2ddaf613a5945eaf32d8",
+      "local_path": "targets/source/camel-prompt-injection",
+      "protected_object": "data dependencies and capabilities of a tool invocation",
+      "security_check": {
+        "file": "src/camel/security_policy.py",
+        "symbol": "SecurityPolicyEngine.check_policy"
+      },
+      "execution_binding": {
+        "file": "src/camel/interpreter/interpreter.py",
+        "symbol": "policy check immediately before tool invocation"
+      },
+      "sink": {
+        "file": "src/camel/pipeline_elements/agentdojo_function.py",
+        "symbol": "AgentDojoFunction.call -> runtime.run_function",
+        "controlled_effect": "test runtime records the exact function and arguments"
+      },
+      "baseline": "uv run pytest",
+      "server_status": "not_yet_recorded"
+    },
+    {
+      "id": "mcp-filesystem",
+      "name": "Official MCP filesystem server with Python MCP client",
+      "repositories": [
+        {
+          "repository": "https://github.com/modelcontextprotocol/python-sdk.git",
+          "revision": "6affe5c0d3588fd1705713b3703dc68015cfe3eb",
+          "local_path": "targets/source/mcp-python-sdk"
+        },
+        {
+          "repository": "https://github.com/modelcontextprotocol/servers.git",
+          "revision": "d73f99efbfd40c3aa1b61e88728b3d49fb52608f",
+          "local_path": "targets/source/mcp-servers"
+        }
+      ],
+      "package_version": "@modelcontextprotocol/server-filesystem 0.6.3",
+      "protected_object": "filesystem operation and resolved path inside allowed roots",
+      "security_check": {
+        "file": "src/filesystem/lib.ts",
+        "symbol": "validatePath"
+      },
+      "execution_binding": {
+        "file": "src/filesystem/index.ts",
+        "symbol": "write handler passes validated path to writeFileContent"
+      },
+      "sink": {
+        "file": "src/filesystem/lib.ts",
+        "symbol": "writeFileContent -> fs.writeFile",
+        "controlled_effect": "temporary directory records resolved path and content hash"
+      },
+      "baseline": "build and run filesystem server tests inside a temporary allowed root",
+      "server_status": "not_yet_recorded"
+    }
+  ]
+}
+

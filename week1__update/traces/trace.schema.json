@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cross-component semantic integrity trace event",
+  "type": "object",
+  "required": [
+    "schema_version", "run_id", "event_index", "target_id", "target_revision",
+    "case_id", "component", "boundary", "event_type", "action", "evidence"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "event_index": {"type": "integer", "minimum": 0},
+    "timestamp_utc": {"type": "string"},
+    "target_id": {"type": "string", "minLength": 1},
+    "target_revision": {"type": "string", "minLength": 7},
+    "case_id": {"type": "string", "minLength": 1},
+    "component": {"type": "string", "minLength": 1},
+    "boundary": {"type": "string", "minLength": 1},
+    "event_type": {
+      "enum": ["input", "check", "decision", "dispatch", "sink"]
+    },
+    "action": {
+      "type": "object",
+      "required": ["operation", "canonical_sha256"],
+      "properties": {
+        "operation": {"type": "string"},
+        "destination": {},
+        "arguments": {},
+        "canonical_sha256": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["known_sources", "visible_sources"],
+      "properties": {
+        "known_sources": {"type": "array", "items": {"type": "string"}},
+        "visible_sources": {"type": "array", "items": {"type": "string"}},
+        "labels": {},
+        "principal": {}
+      }
+    },
+    "decision": {"enum": ["allow", "deny", "approval_required", "approved", "not_applicable"]},
+    "policy_id": {"type": "string"},
+    "approval_id": {"type": "string"},
+    "sink_receipt_sha256": {"type": "string"}
+  }
+}
+
