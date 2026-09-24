@@ -1,0 +1,5 @@
+30ff975dabbce27b588e54560767967372bd74525877145bd92a4a535023e746  /home/shahriar/agent_security/week1__update/results/week1/baselines/camel/command.txt
+a84959a53f75d2d03b1a9508bb4c1f2198b6f3c389522b64b9e2f2452846126a  /home/shahriar/agent_security/week1__update/results/week1/baselines/camel/setup.log
+9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa  /home/shahriar/agent_security/week1__update/results/week1/baselines/camel/setup-exit-code.txt
+de7945a171e16905ffeca4e99f305e4dbb6c702e5ab91ca770a50f21af99967a  /home/shahriar/agent_security/week1__update/results/week1/baselines/camel/pytest.log
+9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa  /home/shahriar/agent_security/week1__update/results/week1/baselines/camel/pytest-exit-code.txt

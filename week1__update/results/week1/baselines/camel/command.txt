@@ -1,0 +1,5 @@
+]633;E;echo "target=CaMeL";9611d5d3-3115-4f0d-8d0f-1f31084d0507]633;Ctarget=CaMeL
+revision=f083b6b396399d3b3c7f2ddaf613a5945eaf32d8
+python=Python 3.12.13
+setup=uv sync --python 3.12
+test=uv run --python 3.12 pytest -q
