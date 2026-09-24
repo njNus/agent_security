@@ -1,4 +1,4 @@
-# Week 1 update for Professor Basavesh
+# Week 1 update
 
 ## One-paragraph result
 
