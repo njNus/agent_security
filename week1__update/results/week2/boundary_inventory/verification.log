@@ -1,0 +1,19 @@
+verification_time_utc=2026-10-03T06:33:05Z
+repository_commit=197bd431c691311011b2f5bd7a3910b2aadeed5c
+
+PASS: maf_fides_benign benign allow control
+PASS: camel_benign benign allow control
+PASS: maf_fides_denied genuine deny control
+PASS: camel_denied genuine deny control
+PASS: seeded MAF mismatch was independently detected and clearly marked synthetic
+PASS: Week 2 control foundation is complete
+NOTE: No real vulnerability has been claimed
+
+PASS: 22 meaningful boundaries recorded
+PASS: CaMeL: 8 boundaries
+PASS: MAF-FIDES: 8 boundaries
+PASS: MCP-Filesystem: 6 boundaries
+PASS: trace status: baseline_only=1, source_inspected=10, traced=11
+PASS: attacker control: no=2, partial=12, yes=8
+PASS: every boundary has source evidence, a security check, and a sink
+PASS: boundary inventory is ready for mutation-family selection

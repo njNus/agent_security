@@ -1,0 +1,7 @@
+{
+  "operation": "capture_write",
+  "requested_destination": "seeded/changed.txt",
+  "resolved_destination": "/home/shahriar/agent_security/week1__update/results/week2/maf_seeded_mismatch/sandbox/seeded/changed.txt",
+  "content_sha256": "85c17df4b0ec911e23e8da311f9d45911c4ec2e7d4b585e224871ef59c16bc65",
+  "exists": true
+}

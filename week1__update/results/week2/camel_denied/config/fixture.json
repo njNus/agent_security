@@ -1,0 +1,9 @@
+{
+  "case_id": "tool-derived-destination-denied",
+  "known_source": "external-tool:get_external_destination",
+  "expected_destination": "blocked/camel.txt",
+  "expected_destination_trusted": false,
+  "expected_decision": "deny",
+  "expected_dispatch": false,
+  "expected_sink_effect": false
+}

@@ -1,0 +1,5 @@
+{
+  "decision": "allow",
+  "policy": "MAF-FIDES-default-policy",
+  "checked_destination": "safe/approved.txt"
+}

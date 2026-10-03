@@ -1,0 +1,8 @@
+{
+  "case_id": "seeded-post-check-destination-change",
+  "seeded_fault": true,
+  "normal_target_execution_path": false,
+  "checked_destination": "safe/approved.txt",
+  "injected_destination": "seeded/changed.txt",
+  "expected_oracle_result": "binding_failure_detected"
+}

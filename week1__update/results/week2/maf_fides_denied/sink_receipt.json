@@ -1,0 +1,9 @@
+{
+  "operation": "capture_write",
+  "requested_destination": "blocked/maf.txt",
+  "resolved_destination": "/home/shahriar/agent_security/week1__update/results/week2/maf_fides_denied/sandbox/blocked/maf.txt",
+  "blocked": true,
+  "dispatch_reached": false,
+  "sink_reached": false,
+  "exists": false
+}

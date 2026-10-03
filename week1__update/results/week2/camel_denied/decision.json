@@ -1,0 +1,5 @@
+{
+  "decision": "deny",
+  "policy": "CaMeL-trusted-fields-policy",
+  "reason": "destination does not come directly from a trusted source"
+}

@@ -1,0 +1,11 @@
+{
+  "oracle": "independent-check-to-sink-comparison",
+  "seeded_fault": true,
+  "normal_target_execution_path": false,
+  "checked_destination": "safe/approved.txt",
+  "sink_destination": "seeded/changed.txt",
+  "checked_action_sha256": "f0d799e9f525c5625e3c68cc2a9c15dd0eaed936af6d8740cf19a4daa18f2c19",
+  "sink_action_sha256": "5b49d5d27f0b40e8da3eaa5156c496c2c461b6adcf81ff29cb7c75336c8a9903",
+  "mismatch_detected": true,
+  "classification": "seeded_binding_failure"
+}

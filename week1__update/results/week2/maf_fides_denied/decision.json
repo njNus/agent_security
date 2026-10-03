@@ -1,0 +1,5 @@
+{
+  "decision": "deny",
+  "policy": "MAF-FIDES-default-policy",
+  "reason": "untrusted_arguments"
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "untrusted-destination-denied",
+  "known_source": "fixture:untrusted-external",
+  "expected_argument_integrity": "untrusted",
+  "expected_decision": "deny",
+  "expected_dispatch": false,
+  "expected_sink_effect": false,
+  "requested_destination": "blocked/maf.txt"
+}
